@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-03-2022 a las 18:50:42
+-- Tiempo de generación: 21-03-2022 a las 14:09:57
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -47,7 +47,12 @@ INSERT INTO `cliente` (`id_cliente`, `nombre`, `apellido`, `DNI`, `telefono`, `d
 (2, 'guillermina', 'ritta', 46033374, 152632605, 'san lorenzo 137 2A', 16, '2005-05-26'),
 (3, 'felicitas', 'hidalgo', 45934672, 2147483647, 'la cascada country', 17, '2004-09-21'),
 (4, 'maitena', 'zuazaga', 46033388, 2147483647, 'la cascada country', 16, '2005-06-10'),
-(5, 'silvana', 'burgos', 29391322, 2147483647, 'colegio san jose', 38, '1986-04-14');
+(5, 'silvana', 'burgos', 29391322, 2147483647, 'colegio san jose', 38, '1986-04-14'),
+(7, 'Guillermina', 'Ritta', 46033374, 152632605, 'San Lorenzo 137', 17, '2005-05-26'),
+(8, 'valentina', 'iacobelli', 45934804, 158087672, 'alfredo terzaga 5079', 17, '2004-10-06'),
+(9, 'mirko', 'iacobelli', 60567984, 158087578, 'nuevo poeta lugones', 0, '2021-09-26'),
+(10, 'franco', 'Ritta', 60935678, 155679835, 'San Lorenzo 137', 0, '2022-11-26'),
+(11, 'monica', 'galindo', 34567876, 156768909, 'san juan 60', 27, '1987-08-06');
 
 --
 -- Índices para tablas volcadas
@@ -67,7 +72,7 @@ ALTER TABLE `cliente`
 -- AUTO_INCREMENT de la tabla `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
