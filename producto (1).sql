@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 30-03-2022 a las 19:35:23
+-- Tiempo de generación: 30-03-2022 a las 19:37:40
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -40,7 +40,7 @@ CREATE TABLE `producto` (
 
 INSERT INTO `producto` (`id_producto`, `nombre`, `marca`, `precio`) VALUES
 (1, 'galleta', 'mondelez', 100),
-(2, 'brownie', 'capriccio', 100),
+(2, 'alfajor', 'capriccio', 80),
 (3, 'empanada', 'el hornito', 100),
 (4, 'alfacookie', 'capriccio', 350),
 (5, 'gaseosa', 'coca cola', 200);
