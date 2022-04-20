@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-04-2022 a las 19:30:37
+-- Tiempo de generación: 20-04-2022 a las 19:32:19
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `empresa`
+-- Base de datos: `empresa modificada`
 --
 
 -- --------------------------------------------------------
@@ -43,8 +43,7 @@ INSERT INTO `conductores` (`codC`, `nombre`, `localidad`, `categoria`) VALUES
 (2, 'Manuel Diaz', 'Arganda', 15),
 (3, 'Juan perez', 'Rivas', 20),
 (4, 'Luis Ortiz', 'Arganda', 18),
-(5, 'Javier Martin', 'Loeches', 12),
-(6, 'Carmen Perez', 'Rivas', 15);
+(5, 'Javier Martin', 'Loeches', 12);
 
 -- --------------------------------------------------------
 
@@ -65,8 +64,7 @@ CREATE TABLE `maquinas` (
 INSERT INTO `maquinas` (`codM`, `nombre`, `preciohora`) VALUES
 (1, 'excavadora', 15000),
 (2, 'hormigonera', 10000),
-(3, 'volquete', 11000),
-(4, 'apisonadora', 18000);
+(3, 'volquete', 11000);
 
 -- --------------------------------------------------------
 
@@ -87,7 +85,6 @@ CREATE TABLE `proyectos` (
 --
 
 INSERT INTO `proyectos` (`codP`, `descripcion`, `localidad`, `cliente`, `telefono`) VALUES
-(5, 'garaje', 'arganda', 'Felipe Sol', '600111111'),
 (6, 'solado', 'rivas', 'Jose Perez', '912222222'),
 (7, 'garaje', 'arganda', 'Rosa Lopez', '666999666'),
 (8, 'techado', 'loeches', 'Jose Perez', '913333333'),
